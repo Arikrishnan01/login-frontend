@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro:wght@300;600;700;900&family=Source+Serif+Pro:wght@300;400;600;700;900&display=swap');
+
+
+.login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.formContainer{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: rgba(255, 255, 255, 0.06);
+    width: 25rem;
+    height: 28rem;
+    flex-direction: column;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+}
+.formTitle{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 3px;
+    opacity: .7;
+    margin-bottom: -75px;
+}
+form:before{
+    content: '';
+    position: absolute;
+    bottom: 5%;
+    right: 30%;
+    width: 150px;
+    height: 150px;
+    background: magenta;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .8;
+}
+form:after{
+    content: '';
+    position: absolute;
+    top: 8%;
+    left: 32%;
+    width: 120px;
+    height: 120px;
+    background: magenta;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .8;
+}
+.first{
+    margin-top: 80px;
+}
+.labelTitle{
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+.inputBox{
+    width: 80%;
+    margin: 3% auto;
+    margin-bottom: 2%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, .6);
+    opacity: .8;
+}
+.loginButton{
+    width: 50%;
+    margin: 5% auto;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255,255,255,.2);
+    box-shadow: 3px 3px 5x rgba(31,38,135,.37);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    cursor: pointer;
+}
+.forgetButton{
+    border: none;
+    outline: none;
+    font-size: 12px;
+    color: white;
+    opacity: .7;
+    background-color: transparent;
+    cursor: pointer;
+}
+.account{
+    border: none;
+    outline: none;
+    font-size: 12px;
+    color: white;
+    opacity: .7;
+    background-color: transparent;
+    cursor: auto;
+}
+.registerButton{
+    width: 50%;
+    margin: 5% auto;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255,255,255,.2);
+    box-shadow: 3px 3px 5x rgba(31,38,135,.37);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    cursor: pointer;   
+}
